@@ -1,14 +1,13 @@
-# uploop
-Uploop! control system sound and schedule time to suspend or shutdown computer
+# Uploop!
+Control system sound and schedule time to suspend or shutdown computer!
 
 ![Home Uploop](./img/1.jpeg) ![About Uploop](./img/2.jpeg)
-
 
 ## Usage
 
 1. Install dependencies:
 
-`npm instal`
+`npm install`
 
 2. Build app:
 
