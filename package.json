@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress",
     "prebuild": "mkdirp build && ncp src/assets build/assets",
     "lint": "eslint src server",
-    "standalone": "nodejs server/index.js"
+    "server": "nodejs server/index.js"
   },
   "keywords": [
     "uploop",
