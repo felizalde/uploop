@@ -10,14 +10,14 @@ const m = parseInt(process.argv[4]);
 const s = parseInt(process.argv[5]);
 
 const delay = (h, m , s) => {
-	const hoursToMinute = h * 60;
-	const secondToMinute = s/60;
-	return ((hoursToMinute + m + secondToMinute) * 60000) 
+    const hoursToMinute = h * 60;
+    const secondToMinute = s/60;
+    return ((hoursToMinute + m + secondToMinute) * 60000) 
 }
 
 setTimeout(() => {
-	(action === SUSPEND) ? exec('systemctl suspend -i')
-						 : exec('systemctl halt -i');
+    (action === SUSPEND) ? exec('systemctl suspend -i')
+                         : exec('systemctl halt -i');
 }, delay(h,m,s));
 
 
