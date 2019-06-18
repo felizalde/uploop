@@ -1,7 +1,7 @@
 # Uploop!
 Control system sound and schedule time to suspend or shutdown computer!
 
-![Home Uploop](./img/1.jpeg) ![About Uploop](./img/2.jpeg)
+![Home Uploop](./img/1.jpeg)
 
 ## Usage
 
